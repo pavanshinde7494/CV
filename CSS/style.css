@@ -1,0 +1,142 @@
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    margin-bottom:0;
+    margin-top: 0;
+    width: 5%;
+    padding-bottom: 20px;
+}
+
+h1{
+    margin-top: 0;
+    margin: 0px auto 0px auto;
+    font-size: 60px;
+/*    padding-bottom: 2%;*/
+    font-family: 'Arvo', serif;
+}
+h2{
+    margin-top: 0;
+    margin: 0px auto 0px auto;
+/*    font-size: 70px;*/
+/*    padding-bottom: 2%;*/
+    font-family: 'Arvo', serif;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    font-size:20px;
+}
+
+.div01{
+    background-color: #68b0ab;
+    padding-bottom: 30px;
+}
+
+
+.top-cloud{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    left:218px;
+}
+.bottom-cloud{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.div02{
+    background-color: #8fc0a9;
+    padding-bottom: 30px;
+/*    padding-top: 30px;*/
+}
+.myimg{
+    width: 150px;
+    padding-top: 50px;
+}
+
+.para-intro{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.div03{
+    background-color: #c8d5b9;
+}
+.skill{
+    display: inline-block;
+    position: relative;
+    bottom: 160px;
+}
+.skillimg{
+    width: 25%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.div03-1{
+    width: 50%;
+    text-align: right;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div03-2{
+    width: 50%;
+    text-align: left;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div04{
+    background-color:#faf3dd;
+}
+.div04-1{
+    width: 50%;
+    text-align: right;
+    margin: 50px auto 50px auto; 
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div04-2{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div05{
+    background-color: #c8d5b9;
+}
+.div05-1{
+    width: 50%;
+    margin: 50px auto 50px auto; 
+    text-align: right;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div05-2{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+.div06{
+    background-color: #8fc0a9;
+}
+.div06-1{
+    width: 33%;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+.contactimg{
+    width:25%;
+}
