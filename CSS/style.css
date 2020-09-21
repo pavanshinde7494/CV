@@ -8,8 +8,13 @@ hr{
     width: 5%;
     padding-bottom: 20px;
 }
+.special-for-a{
+    text-decoration: none;
+}
+
 a{
     color: black;
+    text-decoration: underline;
 }
 a:hover{
     color: #a9ccbc;
@@ -39,7 +44,7 @@ p{
     font-size:20px;
 }
 
-.div01{
+#div01{
     background-color: #68b0ab;
     padding-bottom: 30px;
 }
@@ -57,7 +62,7 @@ p{
     position: absolute;
 }
 
-.div02{
+#div02{
     background-color: #8fc0a9;
     padding-bottom: 30px;
 /*    padding-top: 30px;*/
@@ -74,7 +79,7 @@ p{
     padding-bottom: 15px;
 }
 
-.div03{
+#div03{
     background-color: #c8d5b9;
 }
 .skill{
@@ -101,7 +106,7 @@ p{
     line-height: 2;
     padding-bottom: 50px;
 }
-.div04{
+#div04{
     background-color:#faf3dd;
 }
 .div04-1{
@@ -118,7 +123,7 @@ p{
     line-height: 2;
     padding-bottom: 50px;
 }
-.div05{
+#div05{
     background-color: #c8d5b9;
 }
 .div05-1{
@@ -135,7 +140,7 @@ p{
     line-height: 2;
     padding-bottom: 50px;
 }
-.div06{
+#div06{
     background-color: #8fc0a9;
 }
 .div06-1{
