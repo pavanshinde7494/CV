@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Pavan Shinde">
         <meta name="author" content="Pavan Shinde CV">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/style.css" >
         <link rel="icon" href="CSS - My Site Images\favicon%20(1).ico">
         <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
@@ -13,8 +17,34 @@
         <title>Pavan Shinde</title>
     </head>
     <body>
-        
-        <div class="div01">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top" style="background-color: #68b0ab;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link special-for-a" href="#div01">Home</a>
+            </li>
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link  special-for-a" href="#div02">About me</a>
+            </li>
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link special-for-a" href="#div03">Skills</a>
+            </li>
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link special-for-a" href="#div04">Projects</a>
+            </li>
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link special-for-a" href="#div05">Hobbies</a>
+            </li>
+            <li class="nav-item" style="padding-right: 30px;">
+                <a class="nav-link special-for-a" href="#div06">Contact</a>
+            </li>
+        </ul>
+        </div>
+      </nav>
+        <div id="div01">
             <img class="top-cloud" src="CSS - My Site Images\cloud.png">
             <h1>I'm Pavan</h1>
             <p style="font-family: cursive ; font-weight: normal;">Compitative Programmer</p>
@@ -23,13 +53,13 @@
             <img style="padding-bottom: 15px"src="CSS - My Site Images\mountain.png">    
             <hr>
         </div>      
-        <div class="div02">
+        <div id="div02">
             <img class="myimg" src="CSS - My Site Images\graphic-designer (1).png" >
             <h1>About me</h1>
             <p style="margin:0;" class="para-intro">Hi,I'm Pavan currently pursuing Computer Science and Engineering degree from <a href ="http://www.walchandsangli.ac.in/" >WCE,Sangli</a><br>I'm Computer Science enthusiast, problem solver , compitative Programmer and one who strongly belive in "Sharing of knowledge is the way to increment the knowledge" </p>
             <hr>
         </div>
-        <div class="div03">
+        <div id="div03">
             <img class="myimg" src="CSS - My Site Images\logical-thinking.png">
             <h1 style="padding-bottom: 20px;padding-top: 20px;">Skills</h1>
             <div class="div03-1">
@@ -49,7 +79,7 @@
             </div>
             <hr>
         </div>
-        <div class="div04">
+        <div id="div04">
             <img class="myimg" src="CSS - My Site Images\project.png">
             <h1 style="padding-bottom: 20px;padding-top: 20px; ">Projects</h1>
             <div class="div04-1">
@@ -64,7 +94,7 @@
             </div>
             <hr>
         </div>
-        <div class="div05">
+        <div id="div05">
             <h1 style="padding-bottom: 20px;padding-top: 20px; ">Hobbies</h1>
             <div class="div05-1">
                 <img class="skillimg" src="CSS - My Site Images\book.png" style="float: left; margin-right: 10px;">
@@ -78,7 +108,7 @@
             </div>
             <hr>
         </div>
-        <div class="div06" >
+        <div id="div06" >
             <div class="btn01 btn02 btn03" style="display: block;margin: 0 auto 100px auto; position: relative;top:50px;; "> Connect with me</div>
 <!--                <h1 style="padding-bottom: 20px;padding-top: 20px; ">Contact me</h1>-->
                 <div class="div06-1">
